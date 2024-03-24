@@ -1,4 +1,4 @@
-# Using ID3 to Build a Decision Tree Model
+# Decision Tree Model - Machine Learning with ID3
 
 ## Objective
 The goal of this project is to use machine learning techniques, specifically the ID3 algorithm, to build a decision tree model. This model will classify whether a person’s yearly income is ≤ 50K or > 50K. The data used is from the census bureau database for the year 1994, obtained from the University of California – Irvine.
