@@ -1,13 +1,12 @@
 # Decision Tree Model - Machine Learning with ID3
 
+The goal of this project is to use machine learning techniques, specifically the ID3 algorithm, to build a decision tree model. This model will classify whether a person’s yearly income is ≤ 50K or > 50K. This project is a great opportunity to explore the practical application of decision trees in machine learning and gain hands-on experience with implementing algorithms from scratch.
+
 ## Objective
-The goal of this project is to use machine learning techniques, specifically the ID3 algorithm, to build a decision tree model. This model will classify whether a person’s yearly income is ≤ 50K or > 50K. The data used is from the census bureau database for the year 1994, obtained from the University of California – Irvine.
 
 A decision tree is a flowchart-like structure in which each internal node represents a feature (or attribute), each branch represents a decision rule, and each leaf node represents an outcome. The topmost node in a decision tree is known as the root node. It learns to partition on the basis of the attribute value. It partitions the tree recursively in a manner called recursive partitioning.
 
 In this project, the ID3 (Iterative Dichotomiser 3) algorithm is used to construct the decision tree. ID3 is one of the simplest and most common algorithms for constructing decision trees. It uses Entropy and Information Gain as the statistical test to determine on what attributes to split data. The algorithm is implemented from scratch as described in the book by Kelleher et al, without using packaged libraries like Scikit-Learn. This approach provides a deeper understanding of the inner workings of the algorithm and the principles of machine learning.
-
-This project is a great opportunity to explore the practical application of decision trees in machine learning and gain hands-on experience with implementing algorithms from scratch.
 
 ## Data
 The training and test data are found in the enclosed subfolder named “data”. There are 4 files:
