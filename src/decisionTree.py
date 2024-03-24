@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # # Build a Decision Tree Model
 
@@ -26,7 +24,7 @@ from math import log2
 print("Header of playtennis dataset:",tennis_df.columns)
 print("Header of email dataset:",email_df.columns)
 
-# Use Information Gain from Assignment 1 with a few modify to get call as a function
+# Implement Information Gain
 
 # Define entropy funtion to use on the feature that we look into
 def entropy(feature_prob):
